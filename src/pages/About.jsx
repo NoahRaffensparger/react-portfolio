@@ -2,7 +2,7 @@ import "../App.css"
 
 export default function About() {
   return (
-    <div class="page-div">
+    <div class="page-div about">
       <h1>About Me</h1>
       <p class="about-me">
         Hello! I am a junior full-stack developer from Minnesota with a passion for building dynamic and engaging web applications. I began coding summer of 2024 when I enrolled in the University of Minnesota's Coding Bootcamp. During this intensive program, I learned skills in HTML, CSS, and JavaScript, including a wide range of technologies like React, Node.js, PostgreSQL, MongoDB, and many more. Each project I worked on taught me something new, from designing aesthetic and responsive front-end pages to developing detailed and reliable back-end systems.

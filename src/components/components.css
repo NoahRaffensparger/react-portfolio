@@ -1,0 +1,35 @@
+.navbar-item{
+    font-size: x-large;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navbar-item:hover {
+    color: grey;
+  }
+.parent{
+    padding: 2%;
+    border-bottom: 1px solid grey;
+}
+.title{
+    font-size: 45px;
+}
+.social-icon{
+    height: 45px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: white;
+    text-align: center;
+    border-top: 1px solid grey;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}

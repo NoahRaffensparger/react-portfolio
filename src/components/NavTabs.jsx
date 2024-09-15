@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import "./nav.css"
+import "./components.css"
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
