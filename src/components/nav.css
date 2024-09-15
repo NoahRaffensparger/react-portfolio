@@ -1,0 +1,16 @@
+.navbar-item{
+    font-size: x-large;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navbar-item:hover {
+    color: grey;
+  }
+.parent{
+    padding: 2%;
+    border-bottom: 1px solid grey;
+}
+.title{
+    font-size: 45px;
+}
