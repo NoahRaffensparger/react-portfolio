@@ -7,10 +7,10 @@ function Footer() {
         <footer>
             <div>
                 <a href="https://github.com/NoahRaffensparger" target="_blank" rel="noopener noreferrer">
-                    <img src={githubImage} alt="GitHub" class="social-icon" />
+                    <img src={githubImage} alt="GitHub" className="social-icon" />
                 </a>
                 <a href="https://github.com/NoahRaffensparger" target="_blank" rel="noopener noreferrer">
-                    <img src={linkedinImage} alt="linkedin" class="social-icon" />
+                    <img src={linkedinImage} alt="linkedin" className="social-icon" />
                 </a>
             </div>
         </footer>

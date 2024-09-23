@@ -1,35 +1,53 @@
-.navbar-item{
-    font-size: x-large;
+* {
+    background-color: #b7c5d3;
+}
+
+.navbar-item {
+    font-size: xx-large;
     padding: 20px;
     text-decoration: none;
     color: black;
 }
+
 .navbar-item:hover {
     color: grey;
-  }
-.parent{
-    padding: 2%;
-    border-bottom: 1px solid grey;
 }
-.title{
+
+.parent {
+    padding: 2%;
+    border-bottom: 1px solid gray;
+}
+
+.title {
     font-size: 45px;
 }
-.social-icon{
+
+.social-icon {
     height: 45px;
     width: auto;
     padding-left: 10px;
     padding-right: 10px;
 
 }
-footer{
+
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
-    background-color: white;
     text-align: center;
     border-top: 1px solid grey;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.nav-item {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    /* Adjust duration and easing as needed */
+}
+
+.nav-item.visible{
+    opacity: 1;
 }
